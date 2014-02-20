@@ -2,10 +2,6 @@
 
 M&C is a Redmine Plugin used as a chart tool to monitoring issues' project 
 
-== Website - Portuguese only
-
-* Visite: Monitoramento-&-Controle[http://alexmonteiro.github.com/Redmine-Monitoring-Controlling]
-
 == Features
 ===Master Version (0.1.2) (Redmine 1.4.x or 2.0.x)
 ====Release notes
@@ -35,7 +31,7 @@ M&C is a Redmine Plugin used as a chart tool to monitoring issues' project
 * Copy or clone the app on Redmine plugin folder with the same name like: /vendor/plugins/redmine_monitoring_controlling
     
     cd /{redmineInstalationDir}/vendor/plugins
-    git clone http://github.com/alexmonteiro/Redmine-Monitoring-Controlling.git redmine_monitoring_controlling
+    git clone git@github.com:entawngledcipher/Redmine-Monitoring-Controlling.git redmine_monitoring_controlling
     
 * Run 
 	rake db:migrate_plugins to copy the assets.
